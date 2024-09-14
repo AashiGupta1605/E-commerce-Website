@@ -1,0 +1,27 @@
+.custom-card {
+    height: 350px; /* Set a fixed height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .custom-image {
+    height: 200px; /* Set a fixed height for the image */
+    object-fit: cover; /* Ensure the image covers the area without stretching */
+  }
+  
+  .custom-title, .custom-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .custom-title {
+    font-size: 1.25rem; /* Adjust the font size as needed */
+  }
+  
+  .custom-text {
+    font-size: 1rem; /* Adjust the font size as needed */
+    flex-grow: 1; /* Ensure the text area grows to fill available space */
+  }
+  
